@@ -113,6 +113,8 @@ ol {
   Helper CSS
 -----------------------*/
 
+
+
 .section-title {
   margin-bottom: 70px;
   text-align: center;
@@ -170,6 +172,41 @@ ol {
 }
 
 /* buttons */
+
+.copy__button {
+
+  display: inline-block;
+  font-size: 15px;
+  padding: 2px 5px;
+  background: #4c57d6;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 50px;
+  color:white;
+  background-color: #4c57d6;
+  border: none;
+  font-size: 12px;
+}
+
+.button:hover {
+  transform: translate(2px, 5px);
+}
+
+button {
+  margin-top: -70px;
+
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 10px;
+  background: #4c57d6;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 50px;
+  color:white;
+  background-color: #4c57d6;
+  border: none;
+  font-size: 15px;
+}
 
 .primary-btn {
   display: inline-block;
@@ -870,6 +907,11 @@ ol {
   color: #4c57d6;
 }
 
+.achievement__item__text {
+  color: #FFF;
+  margin-top: 25px;
+}
+
 .achievement__item h2 {
   color: #ffffff;
   font-weight: 700;
@@ -1341,6 +1383,11 @@ ol {
   margin-right: 0;
 }
 
+.bewerbung__werbung {
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 25px;
+}
 /*---------------------
   Testimonial
 -----------------------*/
@@ -2503,6 +2550,11 @@ ol {
   margin-bottom: 30px;
 }
 
+.contact__development {
+  font-style: italic;
+  color: rgb(218, 56, 56);
+}
+
 .contact__text ul li {
   list-style: none;
   position: relative;
@@ -3143,4 +3195,61 @@ ol {
   .load-more .primary-btn {
     padding: 14px 35px 12px;
   }
+}
+
+/*------------
+    Discord
+------------*/
+
+.discord {
+  text-align: center;
+}
+
+.discord__header {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.discord__text {
+  margin-top: 30px;
+}
+
+.discord__button {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 25px;
+  background: #4c57d6;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 50px;
+  color:white;
+  background-color: #4c57d6;
+  border: none;
+  font-size: 18px;
+}
+
+.footer-section {
+  margin-top: 400px;
+}
+
+.footer__text {
+  margin-top: -400px;
+}
+
+/*------------
+   IMPRESSUM
+------------*/
+
+.impressum__header {
+  margin-top: 25px;
+
+  font-weight: bold;
+  font: arial;
+}
+
+.impressum__content {
+  margin-top: 50px;
+
 }

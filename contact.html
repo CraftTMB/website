@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/logo.png" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>CraftTMB</title>
 
     <!-- Google Font -->
@@ -124,9 +125,22 @@
                         <h3>Kontakt Info</h3>
                         <p>Wenn du uns kontaktieren willst,
                         solltest du unserem <a href="https://discord.gg/2ue4Nhq">Discord</a>
-                        beitreten, da wird da am aktivsten sind.</p>
+                        beitreten, da wird da am aktivsten sind. Alternativ an</p>
+                        <b id="p1">Team@crafttmb.net</b>
+                        <button onclick="copyToClipboard('#p1')">Copy</button>
+                        <script>
+                            var $ = jQuery;
+                            function copyToClipboard(element) {
+                              var $temp = $("<input />");
+                              $("body").append($temp);
+                              $temp.val($(element).text()).select();
+                              document.execCommand("copy");
+                              $temp.remove();
+                          }
+                          </script>
+                          <p class="contact__development">In developement</p>
                     </div>
-                <p> Oder: Info.CraftTMB@gmail.com 
+                <p>
             </div>
         </div>
     </section>
@@ -179,8 +193,7 @@
                     </div>
                 </div>
                 <div class="footer__text-copyright">
-                    <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
-                    This template was made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. | <a href="impressum.html">Impressum</a></p>
                 </div>
             </div>
         </div>
